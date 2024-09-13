@@ -36,8 +36,11 @@ header{
 }
 .logo{
     height: 80px;
-    width: 80px;
+    width: 100px;
     background-color: lightgray;
+    background-image: url(./coca-colaLogo.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .menu ul{
     display: flex;
@@ -87,15 +90,22 @@ main{
 .conteudo .social .insta{
     background-image: url(./fotoinsta.png);
     background-position: center;
+    /* indica a pisição da imagem de fundo */
     background-size: cover;
+    /* o tamanho que ela devera ter (fixo ou percentual) */
+    /* link da documentação https://blog.betrybe.com/css/css-background-image/#1 */
 }
 
 .conteudo .social .face{
     background-image: url(./face.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 .conteudo .social .tiktok{
     background-image: url(./tiktok.webp);
+    background-position: center;
+    background-size: cover;
 }
 
 .destaque{
