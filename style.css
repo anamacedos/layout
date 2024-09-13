@@ -28,7 +28,6 @@ body{
 
 header{
     height: 200px;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     /* se espalha mais o que vc puder */
@@ -44,11 +43,21 @@ header{
     display: flex;
     gap: 32px;
     /* gap: espaço entre eles */
+    font-size: 32px;
 }
 main{
     flex-grow: 1;
     /* se estique o max que vc puder */
-    background-color: plum;
+    display: flex;
+    /* organize seus filhos com display flex um do lado do outro */
+}
+.conteudo{
+    width: 50%;
+    background-color: red;
+}
+.destaque{
+    width: 50%;
+    background-color: lightgray;
 }
 footer{
     height: 100px;
