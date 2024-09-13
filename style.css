@@ -24,6 +24,7 @@ body{
     /* falar que eles vao ficar organizados em colunas */
     padding-inline: 80px;
     /* inline significa direita e esquerda */
+    background-color: #E9DABE;
 }
 
 header{
@@ -110,7 +111,10 @@ main{
 
 .destaque{
     width: 50%;
-    background-color: lightgray;
+    background-image: url(./cocacolaCerto.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 footer{
 height: 100px;
