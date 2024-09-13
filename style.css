@@ -18,15 +18,32 @@ ul, ol, li{
 
 body{
     /* sempre vai ter a largura inteira e não a altura */
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     /* falar que eles vao ficar organizados em colunas */
+    padding-inline: 80px;
+    /* inline significa direita e esquerda */
 }
 
 header{
     height: 200px;
     background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    /* se espalha mais o que vc puder */
+    align-items: center;
+    /* para deixar no centro da div */
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: lightgray;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    /* gap: espaço entre eles */
 }
 main{
     flex-grow: 1;
