@@ -84,6 +84,20 @@ main{
     /* sao as bordas, para deixa-lo uma bolinha */
     background-color: lightgray;
 }
+.conteudo .social .insta{
+    background-image: url(./fotoinsta.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo .social .face{
+    background-image: url(./face.jpeg);
+}
+
+.conteudo .social .tiktok{
+    background-image: url(./tiktok.webp);
+}
+
 .destaque{
     width: 50%;
     background-color: lightgray;
