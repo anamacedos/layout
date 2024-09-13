@@ -1,0 +1,39 @@
+/* RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none; 
+    /* para tirar o sublinhado do link */
+    color: inherit;
+    /* para nao ter cor nos links */
+}
+ul, ol, li{
+    list-style: none;
+    /* para tirar as caracteristicas da lista (como bolinhas, 123) */
+}
+/* fim do reset */
+
+body{
+    /* sempre vai ter a largura inteira e não a altura */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* falar que eles vao ficar organizados em colunas */
+}
+
+header{
+    height: 200px;
+    background-color: aqua;
+}
+main{
+    flex-grow: 1;
+    /* se estique o max que vc puder */
+    background-color: plum;
+}
+footer{
+    height: 100px;
+    background-color: lightgreen;
+}
