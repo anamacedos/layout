@@ -75,7 +75,10 @@ main{
     background-color: black;
     color: white;
     font-size: 32px;
+    
 }
+
+
 .conteudo .social{
     display: flex;
     justify-content: space-between;

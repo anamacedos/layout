@@ -1,0 +1,171 @@
+/* RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none; 
+    /* para tirar o sublinhado do link */
+    color: inherit;
+    /* para nao ter cor nos links */
+}
+ul, ol, li{
+    list-style: none;
+    /* para tirar as caracteristicas da lista (como bolinhas, 123) */
+}
+/* fim do reset */
+
+body{
+    /* sempre vai ter a largura inteira e não a altura */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* falar que eles vao ficar organizados em colunas */
+    padding-inline: 80px;
+    /* inline significa direita e esquerda */
+    background-color: #cbbead;
+}
+.lupa{
+    width: 30px;
+    height: 30px;
+    
+
+}
+h1{
+    font-family: "Meddon", cursive;  /*configurações da fonte */
+    font-weight: 400;    /*configurações da fonte */
+    font-style: normal;  /*configurações da fonte */
+    font-size: 900%;
+    color: #776b5d;
+}
+.emcima{
+    justify-content: space-between ;
+    gap: 50px;
+    /* gap: espaço entre eles */
+    align-items: center;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-style: normal;
+    color: #776b5d;
+ hr {
+    border: 0; /* Remove a borda padrão */
+    height: 20px; /* Altura da linha */
+    background-color: #ffffff; /* Cor da linha */
+    margin: 10px; /*Margens acima e abaixo */
+}
+}
+.header{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    /* se espalha mais o que vc puder */
+    align-items: center;
+    /* para deixar no centro da div */
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-style: normal;
+    color: #776b5d;
+}
+.titulo{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-style: normal;
+    color: #776b5d;
+    display: flex;
+    width: 50%;
+    margin-top: 10%;
+}
+
+main{
+    flex-grow: 1;
+    /* se estique o max que vc puder */
+    display: flex;
+    /* organize seus filhos com display flex um do lado do outro */
+    
+    ;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    padding: top;
+    
+    
+}
+
+.conteudo .textos{
+    font-size: 45px;
+    width: 80%;
+    justify-content: space-between;
+
+    
+ 
+    
+    
+    /* falando para ele ocupar 80% do pai (usar porcentagem qnd se referir ao pai) */
+}
+
+
+.conteudo .textomenor{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 23px;
+    font-style: normal;
+    color: #776b5d;
+    display: flex;
+    width: 65%;
+    margin-top: 3%;
+   
+}
+
+.terceiro{
+    color: #ffffff;
+    width: 900px;
+    font-size: 65px;
+
+}
+
+.foto{
+    width: 50%;
+
+
+}
+.foto img{
+    width: 100%;
+    margin-top: 13%;
+}
+
+.primeiro{
+
+    width: 900px;
+    font-size: 65px;
+
+}
+
+.segundo{
+    width: 900px;
+    font-size: 65px;
+
+}
+
+.conteudo button{
+    height: 96px;
+    width: 300px;
+    background-color: #cbbead;
+    color: #776b5d;
+    font-size: 32px;
+    border: 2px solid #776b5d; /* Borda fina */
+    border-radius: 8px;
+    margin-top: 3%;
+}
